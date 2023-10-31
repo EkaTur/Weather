@@ -1,0 +1,114 @@
+body {
+    background-image: url('photo3.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgba(144, 195, 219, 0.7);
+}
+
+h1 {
+    color: #fff;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-image: linear-gradient(rgba(200, 228, 233, 0.3), rgba(0, 0, 0, 0.6));
+    min-height: 100vh;
+}
+
+#input {
+    background-color: rgba(164, 139, 196, 0.3);
+    border-radius: 20px;
+    border: 3px solid white;
+    padding: 15px;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    width: 25%;
+    text-align: center;
+}
+
+#input:focus {
+    background-color: #fff;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+}
+
+#inputCont {
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#whenWhere {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#city {
+    color: #fff;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+#date {
+    color: #fff;
+    font-size: 25px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#now {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#temperature {
+    color: #fff;
+    font-size: 110px;
+    font-weight: bold;
+    text-shadow: 5px 10px black;
+    margin: 0;
+}
+
+#feelsLike {
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#conditions {
+    color: #fff;
+    font-size: 32px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+#variation {
+    color: #fff;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+@media all and (max-width: 500px) {
+    #input {
+        width: 50%;
+        font-weight: bold;
+    }
+
+    #city {
+        text-align: center;
+    }
+}
