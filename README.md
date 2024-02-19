@@ -1,6 +1,6 @@
 # Weather App
 
-![Screenshot](Assets/screenshot/screen.PNG)
+![Screenshot](Assets/screen.PNG)
 This is a simple web application that allows users to check the weather for a specific city.
 
 ## Table of Contents
